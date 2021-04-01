@@ -1,0 +1,20 @@
+{
+  "title": "Prevent unintended command-m minimize window",
+  "rules": [
+    {
+      "description": "Disable Cmd+M Minimize",
+      "manipulators": [
+        {
+          "type": "basic",
+          "description": "",
+          "from": {
+            "key_code": "m",
+            "modifiers": {
+              "mandatory": ["command"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
